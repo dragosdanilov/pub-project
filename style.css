@@ -9,15 +9,12 @@
 }
 
 :root {
-    --pubGreen: rgb(18, 22, 20);
-    --white: rgb(233, 239, 230);
-    --white2: rgb(255, 253, 250);
-    --indianRed: rgb(235, 81, 96);
-    --airSuperiorityBlue: rgb(119, 152, 171);
-    --platinum: rgb(217, 215, 221);
-    --mint: rgb(79, 178, 134);
-    --cambridgeBlue: rgb(124, 182, 173);
-    --whiteSmoke: rgb(245, 245, 245);
+    --butterscotch: rgb(219, 157, 83);
+    --floralWhite: rgb(255, 250, 240);
+    --darkGreen: rgb(0, 35, 31);
+    --licorice: rgb(13, 16, 16);
+    --olivine: rgb(171, 199, 152);
+    --babyPowder: rgb(253, 254, 253);
 }
 
 html {
@@ -29,6 +26,7 @@ html {
 }
 
 body {
+    background-color: var(--floralWhite);
     height: 100vh;
     width: 100vw;
     margin: 0;
@@ -44,7 +42,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--pubGreen);
+    background: var(--darkGreen);
     /* background: rgba(47, 61, 40, 0.8); */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.2px);
@@ -56,7 +54,7 @@ body {
 }
 
 .website-name a {
-    color: var(--white2);
+    color: var(--floralWhite);
     /* color: var(--platinum); */
     font-weight: bold;
     font-size: 3rem;
@@ -65,7 +63,7 @@ body {
 }
 
 .website-name a:hover {
-    color: var(--cambridgeBlue);
+    color: var(--butterscotch);
     transition: 0.1s;
 }
 
@@ -89,11 +87,11 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: var(--whiteSmoke);
+    color: var(--floralWhite);
 }
 
 .navbar-links li a:hover {
-    color: var(--cambridgeBlue);
+    color: var(--butterscotch);
     text-decoration: underline;
     opacity: 1;
     text-underline-offset: 8px;
